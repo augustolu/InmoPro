@@ -1,0 +1,118 @@
+ERROR - 2025-09-10 14:17:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\Hotel Terra\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\xampp\htdocs\Hotel Terra\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp\htdocs\Hotel Terra\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp\htdocs\Hotel Terra\system\Database\MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp\htdocs\Hotel Terra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\Hotel Terra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\Hotel Terra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\Hotel Terra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\Hotel Terra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\Hotel Terra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\Hotel Terra\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp\htdocs\Hotel Terra\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp\htdocs\Hotel Terra\system\Database\MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp\htdocs\Hotel Terra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp\htdocs\Hotel Terra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp\htdocs\Hotel Terra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp\htdocs\Hotel Terra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#10 D:\xampp\htdocs\Hotel Terra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 D:\xampp\htdocs\Hotel Terra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-09-10 14:19:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\Hotel Terra\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\xampp\htdocs\Hotel Terra\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp\htdocs\Hotel Terra\system\Commands\Database\ShowTableInfo.php(121): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp\htdocs\Hotel Terra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\ShowTableInfo->run(Array)
+#6 D:\xampp\htdocs\Hotel Terra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:table', Array)
+#7 D:\xampp\htdocs\Hotel Terra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#8 D:\xampp\htdocs\Hotel Terra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#9 D:\xampp\htdocs\Hotel Terra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\Hotel Terra\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp\htdocs\Hotel Terra\system\Commands\Database\ShowTableInfo.php(121): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp\htdocs\Hotel Terra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\ShowTableInfo->run(Array)
+#5 D:\xampp\htdocs\Hotel Terra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:table', Array)
+#6 D:\xampp\htdocs\Hotel Terra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#7 D:\xampp\htdocs\Hotel Terra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#8 D:\xampp\htdocs\Hotel Terra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#9 {main}
+CRITICAL - 2025-09-10 14:19:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: CLI, Route: db:table]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FROM ')
+ 3 SYSTEMPATH\Commands\Database\ShowTableInfo.php(121): CodeIgniter\Database\BaseConnection->listTables()
+ 4 SYSTEMPATH\CLI\Commands.php(74): CodeIgniter\Commands\Database\ShowTableInfo->run([])
+ 5 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:table', [])
+ 6 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2025-09-10 14:20:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\Hotel Terra\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\xampp\htdocs\Hotel Terra\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\xampp\htdocs\Hotel Terra\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\xampp\htdocs\Hotel Terra\system\Database\MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\xampp\htdocs\Hotel Terra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\Hotel Terra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\Hotel Terra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\Hotel Terra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\Hotel Terra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\Hotel Terra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\Hotel Terra\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\xampp\htdocs\Hotel Terra\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\xampp\htdocs\Hotel Terra\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\xampp\htdocs\Hotel Terra\system\Database\MigrationRunner.php(162): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\xampp\htdocs\Hotel Terra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp\htdocs\Hotel Terra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp\htdocs\Hotel Terra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp\htdocs\Hotel Terra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#10 D:\xampp\htdocs\Hotel Terra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 D:\xampp\htdocs\Hotel Terra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-09-10 14:49:46 --> mysqli_sql_exception: Can't create table `hotelterra`.`reservas` (errno: 150 "Foreign key constraint is incorrectly formed") in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 D:\xampp\htdocs\hotelTerra\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 D:\xampp\htdocs\hotelTerra\app\Database\Migrations\20250910151500_CreateReservas.php(24): CodeIgniter\Database\Forge->createTable('reservas')
+#5 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateReservas->up()
+#6 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\hotelTerra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\hotelTerra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\hotelTerra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\hotelTerra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\hotelTerra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}

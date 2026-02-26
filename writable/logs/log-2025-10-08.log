@@ -1,0 +1,1503 @@
+DEBUG - 2025-10-08 18:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 18:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 18:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 18:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-08 19:02:05 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: reservas]
+in APPPATH\Controllers\Reservas.php on line 164.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\hotelTerra\\app\\Controllers\\Reservas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Reservas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Reservas')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Reservas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:02:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reservas/partials/listado_habitaciones.php"
+[Method: GET, Route: reservas]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reservas/partials/listado_habitaciones.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('reservas/partials/listado_habitaciones', null, true)
+ 3 APPPATH\Views\reservas\listado.php(52): CodeIgniter\View\View->include('reservas/partials/listado_habitaciones')
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\xampp\\htdocs\\hotelTerra\\app\\Views\\reservas\\listado.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('reservas/listado', [], true)
+ 7 APPPATH\Controllers\Reservas.php(13): view('reservas/listado')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:02:49 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: reservas]
+in APPPATH\Controllers\Reservas.php on line 164.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\hotelTerra\\app\\Controllers\\Reservas.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Reservas')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Reservas')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Reservas', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-10-08 19:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 19:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 19:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 19:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-08 19:07:22 --> ErrorException: Undefined array key "capacidad"
+[Method: GET, Route: reservas/disponibilidad]
+in APPPATH\Controllers\Reservas.php on line 35.
+ 1 APPPATH\Controllers\Reservas.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "capacidad"', 'D:\\xampp\\htdocs\\hotelTerra\\app\\Controllers\\Reservas.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-08 19:28:52 --> mysqli_sql_exception: Unknown column 't.precio_nino' in 'field list' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n        SELEC...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 D:\xampp\htdocs\hotelTerra\app\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 D:\xampp\htdocs\hotelTerra\app\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+#5 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+#6 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+#7 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\hotelTerra\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\hotelTerra\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\hotelTerra\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-10-08 19:28:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.precio_nino' in 'field list'
+[Method: GET, Route: reservas/disponibilidad]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 2 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:28:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.precio_nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 4 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:28:52 --> [Caused by] mysqli_sql_exception: Unknown column 't.precio_nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 4 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 5 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-08 19:29:33 --> mysqli_sql_exception: Unknown column 't.precio_nino' in 'field list' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n        SELEC...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 D:\xampp\htdocs\hotelTerra\app\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 D:\xampp\htdocs\hotelTerra\app\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+#5 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+#6 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+#7 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\hotelTerra\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\hotelTerra\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\hotelTerra\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-10-08 19:29:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.precio_nino' in 'field list'
+[Method: GET, Route: reservas/disponibilidad]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 2 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:29:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.precio_nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 4 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:29:33 --> [Caused by] mysqli_sql_exception: Unknown column 't.precio_nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 4 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 5 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-08 19:29:39 --> mysqli_sql_exception: Unknown column 't.precio_nino' in 'field list' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n        SELEC...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 D:\xampp\htdocs\hotelTerra\app\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 D:\xampp\htdocs\hotelTerra\app\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+#5 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+#6 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+#7 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\hotelTerra\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\hotelTerra\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\hotelTerra\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-10-08 19:29:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.precio_nino' in 'field list'
+[Method: GET, Route: reservas/disponibilidad]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 2 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:29:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.precio_nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 4 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:29:39 --> [Caused by] mysqli_sql_exception: Unknown column 't.precio_nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 1
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= \'2025-10-09\' AND r.fechaFin >= \'2025-10-09\')
+                    OR (r.fechaInicio <= \'2025-10-11\' AND r.fechaFin >= \'2025-10-11\')
+                    OR (r.fechaInicio >= \'2025-10-09\' AND r.fechaFin <= \'2025-10-11\')
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 4 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 5 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles('2025-10-09', '2025-10-11', 1)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-10-08 19:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-08 19:30:19 --> mysqli_sql_exception: Unknown column 't.precio_nino' in 'field list' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n        SELEC...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 D:\xampp\htdocs\hotelTerra\app\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 D:\xampp\htdocs\hotelTerra\app\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(NULL, NULL, 0)
+#5 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+#6 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+#7 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\hotelTerra\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\hotelTerra\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\hotelTerra\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-10-08 19:30:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.precio_nino' in 'field list'
+[Method: GET, Route: reservas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 2 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(null, null, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:30:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.precio_nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 4 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(null, null, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:30:19 --> [Caused by] mysqli_sql_exception: Unknown column 't.precio_nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 4 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.precio_nino AS tarifa_nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 5 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(null, null, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-08 19:31:39 --> mysqli_sql_exception: Unknown column 't.nino' in 'field list' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n        SELEC...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 D:\xampp\htdocs\hotelTerra\app\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 D:\xampp\htdocs\hotelTerra\app\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(NULL, NULL, 0)
+#5 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+#6 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+#7 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\hotelTerra\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\hotelTerra\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\hotelTerra\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-10-08 19:31:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.nino' in 'field list'
+[Method: GET, Route: reservas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 2 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(null, null, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:31:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 4 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(null, null, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:31:39 --> [Caused by] mysqli_sql_exception: Unknown column 't.nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 4 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 5 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(null, null, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-08 19:34:07 --> mysqli_sql_exception: Unknown column 't.nino' in 'field list' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n        SELEC...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 D:\xampp\htdocs\hotelTerra\app\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 D:\xampp\htdocs\hotelTerra\app\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(NULL, NULL, 0)
+#5 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+#6 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+#7 D:\xampp\htdocs\hotelTerra\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\hotelTerra\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\hotelTerra\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\hotelTerra\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-10-08 19:34:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.nino' in 'field list'
+[Method: GET, Route: reservas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 2 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(null, null, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:34:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't.nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 4 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(null, null, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-08 19:34:07 --> [Caused by] mysqli_sql_exception: Unknown column 't.nino' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= 0
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio <= NULL AND r.fechaFin >= NULL)
+                    OR (r.fechaInicio >= NULL AND r.fechaFin <= NULL)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ')
+ 4 APPPATH\Models\HabitacionModel.php(62): CodeIgniter\Database\BaseConnection->query('
+        SELECT 
+            h.*, 
+            t.idTarifa, 
+            t.nombre AS tarifa_nombre, 
+            t.precio AS tarifa_precio, 
+            t.capacidad AS tarifa_capacidad,
+            t.nino AS nino
+        FROM habitaciones h
+        JOIN habitacion_tarifas t ON t.idHabitacion = h.idHabitacion
+        WHERE t.capacidad >= ?
+          AND h.estado = \'disponible\'
+          AND h.idHabitacion NOT IN (
+              SELECT r.idHabitacion
+              FROM reservas r
+              WHERE r.estado != \'cancelada\'
+                AND (
+                    (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio <= ? AND r.fechaFin >= ?)
+                    OR (r.fechaInicio >= ? AND r.fechaFin <= ?)
+                )
+          )
+        ORDER BY h.tipo, t.capacidad ASC
+    ', [...])
+ 5 APPPATH\Controllers\Reservas.php(23): App\Models\HabitacionModel->buscarDisponibles(null, null, 0)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-10-08 19:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 19:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 19:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 19:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 19:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 19:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 19:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-08 20:19:30 --> ValueError: array_rand(): Argument #2 ($num) must be between 1 and the number of elements in argument #1 ($array)
+[Method: GET, Route: reservas]
+in APPPATH\Views\reservas\listado.php on line 85.
+ 1 APPPATH\Views\reservas\listado.php(85): array_rand([...], 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp\\htdocs\\hotelTerra\\app\\Views\\reservas\\listado.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('reservas/listado', [], true)
+ 5 APPPATH\Controllers\Reservas.php(52): view('reservas/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservas->disponibilidad()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-10-08 20:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 20:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

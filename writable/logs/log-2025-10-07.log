@@ -1,0 +1,155 @@
+DEBUG - 2025-10-07 18:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 18:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 18:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 18:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 18:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 18:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 18:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-07 18:55:52 --> mysqli_sql_exception: Duplicate column name 'cantidadHuespedes' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `re...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `re...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `re...')
+#3 D:\xampp\htdocs\hotelTerra\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `re...')
+#4 D:\xampp\htdocs\hotelTerra\app\Database\Migrations\20251001132948_UpdateReservasCampos.php(11): CodeIgniter\Database\Forge->addColumn('reservas', Array)
+#5 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(876): App\Database\Migrations\UpdateReservasTable->up()
+#6 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\hotelTerra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\hotelTerra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\hotelTerra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\hotelTerra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\hotelTerra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-10-07 19:48:39 --> mysqli_sql_exception: Duplicate column name 'cantidadHuespedes' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `re...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `re...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `re...')
+#3 D:\xampp\htdocs\hotelTerra\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `re...')
+#4 D:\xampp\htdocs\hotelTerra\app\Database\Migrations\20251001132948_UpdateReservasCampos.php(11): CodeIgniter\Database\Forge->addColumn('reservas', Array)
+#5 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(876): App\Database\Migrations\UpdateReservasTable->up()
+#6 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\hotelTerra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\hotelTerra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\hotelTerra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\hotelTerra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\hotelTerra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-10-07 19:49:06 --> mysqli_sql_exception: Duplicate column name 'cantidadHuespedes' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `re...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `re...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `re...')
+#3 D:\xampp\htdocs\hotelTerra\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `re...')
+#4 D:\xampp\htdocs\hotelTerra\app\Database\Migrations\20251001132948_UpdateReservasCampos.php(11): CodeIgniter\Database\Forge->addColumn('reservas', Array)
+#5 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(876): App\Database\Migrations\UpdateReservasTable->up()
+#6 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\hotelTerra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\hotelTerra\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\hotelTerra\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\xampp\htdocs\hotelTerra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\xampp\htdocs\hotelTerra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#14 D:\xampp\htdocs\hotelTerra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 D:\xampp\htdocs\hotelTerra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-10-07 19:51:33 --> mysqli_sql_exception: Duplicate column name 'cantidadHuespedes' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `re...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `re...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `re...')
+#3 D:\xampp\htdocs\hotelTerra\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `re...')
+#4 D:\xampp\htdocs\hotelTerra\app\Database\Migrations\20251001132948_UpdateReservasCampos.php(11): CodeIgniter\Database\Forge->addColumn('reservas', Array)
+#5 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(876): App\Database\Migrations\UpdateReservasTable->up()
+#6 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\hotelTerra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\hotelTerra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\hotelTerra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\hotelTerra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\hotelTerra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-10-07 19:52:26 --> mysqli_sql_exception: Duplicate column name 'cantidadHuespedes' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `re...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `re...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `re...')
+#3 D:\xampp\htdocs\hotelTerra\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `re...')
+#4 D:\xampp\htdocs\hotelTerra\app\Database\Migrations\20251001132948_UpdateReservasCampos.php(11): CodeIgniter\Database\Forge->addColumn('reservas', Array)
+#5 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(876): App\Database\Migrations\UpdateReservasTable->up()
+#6 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\hotelTerra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\hotelTerra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\hotelTerra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 D:\xampp\htdocs\hotelTerra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\xampp\htdocs\hotelTerra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-10-07 19:58:17 --> mysqli_sql_exception: Duplicate column name 'cantidadHuespedes' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `re...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `re...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `re...')
+#3 D:\xampp\htdocs\hotelTerra\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `re...')
+#4 D:\xampp\htdocs\hotelTerra\app\Database\Migrations\20251001132948_UpdateReservasCampos.php(11): CodeIgniter\Database\Forge->addColumn('reservas', Array)
+#5 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(876): App\Database\Migrations\UpdateReservasTable->up()
+#6 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\hotelTerra\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\hotelTerra\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\hotelTerra\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\xampp\htdocs\hotelTerra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\xampp\htdocs\hotelTerra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#14 D:\xampp\htdocs\hotelTerra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 D:\xampp\htdocs\hotelTerra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-10-07 20:01:20 --> mysqli_sql_exception: Unknown table 'hotelterra.habitaciones' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('DROP TABLE `hab...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `hab...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `hab...')
+#3 D:\xampp\htdocs\hotelTerra\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `hab...')
+#4 D:\xampp\htdocs\hotelTerra\app\Database\Migrations\20250910151000_CreateHabitaciones.php(36): CodeIgniter\Database\Forge->dropTable('habitaciones')
+#5 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateHabitaciones->down()
+#6 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(289): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\xampp\htdocs\hotelTerra\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\xampp\htdocs\hotelTerra\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\xampp\htdocs\hotelTerra\system\Commands\Database\MigrateRefresh.php(86): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\xampp\htdocs\hotelTerra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\xampp\htdocs\hotelTerra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#14 D:\xampp\htdocs\hotelTerra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 D:\xampp\htdocs\hotelTerra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-10-07 20:08:45 --> mysqli_sql_exception: Unknown table 'hotelterra.habitaciones' in D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\hotelTerra\system\Database\MySQLi\Connection.php(327): mysqli->query('DROP TABLE `hab...', 0)
+#1 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `hab...')
+#2 D:\xampp\htdocs\hotelTerra\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `hab...')
+#3 D:\xampp\htdocs\hotelTerra\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `hab...')
+#4 D:\xampp\htdocs\hotelTerra\app\Database\Migrations\20250910151000_CreateHabitaciones.php(35): CodeIgniter\Database\Forge->dropTable('habitaciones')
+#5 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateHabitaciones->down()
+#6 D:\xampp\htdocs\hotelTerra\system\Database\MigrationRunner.php(289): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\xampp\htdocs\hotelTerra\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\xampp\htdocs\hotelTerra\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\xampp\htdocs\hotelTerra\system\Commands\Database\MigrateRefresh.php(86): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\xampp\htdocs\hotelTerra\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\xampp\htdocs\hotelTerra\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\xampp\htdocs\hotelTerra\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#14 D:\xampp\htdocs\hotelTerra\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 D:\xampp\htdocs\hotelTerra\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+DEBUG - 2025-10-07 20:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 20:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 20:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 20:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 20:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 20:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 20:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-07 20:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
